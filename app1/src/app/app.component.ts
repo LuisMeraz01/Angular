@@ -11,4 +11,15 @@ export class AppComponent {
   edad = 40;
   sueldos = [1700, 1600, 1900]; // Seccion de directivas y condiciones
 
+  contador = 1; // Seccion para funciones y eventos
+
+  incrementar() {
+    this.contador++;
+  }
+
+  decrementar() {
+    this.contador--;
+  }
+
+
 }
